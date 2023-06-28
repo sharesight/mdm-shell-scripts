@@ -21,12 +21,12 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installRemoteDesktop/Remote Desktop.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installRemoteDesktop/Remote Desktop.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 
 ##############################################################
-# Fri  9 Apr 2021 13:04:03 BST | Logging install of [Remote Desktop] to [/Library/Logs/Microsoft/IntuneScripts/installRemoteDesktop/Remote Desktop.log]
+# Fri  9 Apr 2021 13:04:03 BST | Logging install of [Remote Desktop] to [/Library/Logs/Jamf/Scripts/installRemoteDesktop/Remote Desktop.log]
 ############################################################
 
 Fri  9 Apr 2021 13:04:03 BST | Checking if we need Rosetta 2 or not
@@ -57,5 +57,5 @@ installer: The upgrade was successful.
 Fri  9 Apr 2021 13:04:12 BST | Remote Desktop Installed
 Fri  9 Apr 2021 13:04:12 BST | Cleaning Up
 Fri  9 Apr 2021 13:04:12 BST | Application [Remote Desktop] succesfully installed
-Fri  9 Apr 2021 13:04:12 BST | Writing last modifieddate [Fri, 26 Mar 2021 14:43:35 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installRemoteDesktop/Remote Desktop.meta]
+Fri  9 Apr 2021 13:04:12 BST | Writing last modifieddate [Fri, 26 Mar 2021 14:43:35 GMT] to [/Library/Logs/Jamf/Scripts/installRemoteDesktop/Remote Desktop.meta]
 ```

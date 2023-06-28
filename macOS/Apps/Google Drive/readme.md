@@ -17,11 +17,11 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/EnableScreenSharing/EnableScreenSharing.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/EnableScreenSharing/EnableScreenSharing.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Fri 26 Nov 2021 12:57:06 GMT | Logging configuration of [EnableScreenSharing] to [/Library/Logs/Microsoft/IntuneScripts/EnableScreenSharing/EnableScreenSharing.log]
+# Fri 26 Nov 2021 12:57:06 GMT | Logging configuration of [EnableScreenSharing] to [/Library/Logs/Jamf/Scripts/EnableScreenSharing/EnableScreenSharing.log]
 ############################################################
 
 Fri 26 Nov 2021 12:57:06 GMT | Writing to /var/db/launchd.db/com.apple.launchd/overrides.plist

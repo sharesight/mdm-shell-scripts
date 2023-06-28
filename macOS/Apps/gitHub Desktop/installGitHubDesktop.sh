@@ -30,7 +30,7 @@ fi
 
 appname="GitHub Desktop"                                                                       # The name of our App deployment script
 app="GitHub Desktop.app"                                                                       # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installGitHubDesktop"                     # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installGitHubDesktop"                     # The location of our logs and last updated data
 processpath="/Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop"                   # The process name of the App we are installing
 terminateprocess="false"                                                                       # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                                            # If true, application updates itself and we should not attempt to update

@@ -20,7 +20,7 @@
 weburl="https://download3.vmware.com/software/CART23FQ3_MAC_2209/VMware-Horizon-Client-2209-8.7.0-20615470.dmg"
 appname="VMware Horizon Client"                                         # The name of our App deployment script (also used for Octory monitor)
 app="VMware Horizon Client.app"                                         # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installHorizonClient"        # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installHorizonClient"        # The location of our logs and last updated data
 processpath="/Applications/VMware Horizon Client.app/Contents/MacOS/vmware-view"  # The process name of the App we are installing
 terminateprocess="false"                                                # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                       # If true, application updates itself and we should not attempt to update

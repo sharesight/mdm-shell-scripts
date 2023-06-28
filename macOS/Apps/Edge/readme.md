@@ -17,11 +17,11 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installEdge/Microsoft Edge.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installEdge/Microsoft Edge.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:28:18 BST | Logging install of [Microsoft Edge] to [/Library/Logs/Microsoft/IntuneScripts/installEdge/Microsoft Edge.log]
+# Fri  9 Apr 2021 13:28:18 BST | Logging install of [Microsoft Edge] to [/Library/Logs/Jamf/Scripts/installEdge/Microsoft Edge.log]
 ############################################################
 
 Fri  9 Apr 2021 13:28:18 BST | Checking if we need Rosetta 2 or not
@@ -52,5 +52,5 @@ installer: The upgrade was successful.
 Fri  9 Apr 2021 13:29:25 BST | Microsoft Edge Installed
 Fri  9 Apr 2021 13:29:25 BST | Cleaning Up
 Fri  9 Apr 2021 13:29:25 BST | Application [Microsoft Edge] succesfully installed
-Fri  9 Apr 2021 13:29:25 BST | Writing last modifieddate [Thu, 08 Apr 2021 18:49:49 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installEdge/Microsoft Edge.meta]
+Fri  9 Apr 2021 13:29:25 BST | Writing last modifieddate [Thu, 08 Apr 2021 18:49:49 GMT] to [/Library/Logs/Jamf/Scripts/installEdge/Microsoft Edge.meta]
 ```

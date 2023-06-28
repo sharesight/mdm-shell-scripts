@@ -25,7 +25,7 @@
 
 # User Defined variables
 appname="EnableScreenSharing"                                                   # The name of our App deployment script (also used for Octory monitor)
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/EnableScreenSharing"       # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/EnableScreenSharing"       # The location of our logs and last updated data
 
 # Generated variables
 log="$logandmetadir/$appname.log"                                               # The location of the script log file

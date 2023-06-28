@@ -33,7 +33,7 @@
 weburl="https://www.sonos.com/redir/controller_software_mac2"                                # What is the Azure Blob Storage URL?
 appname="Sonos"                                                       # The name of our App deployment script (also used for Octory monitor)
 app="$appname.app"                                                      # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"          # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"          # The location of our logs and last updated data
 processpath="/Applications/Sonos.app/Contents/MacOS/Sonos"                  # The process name of the App we are installing
 terminateprocess="true"                                                 # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                      # Application updates itself, if already installed we should exit

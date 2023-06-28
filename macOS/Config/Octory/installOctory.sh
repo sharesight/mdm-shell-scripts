@@ -23,7 +23,7 @@ weburl="" # Enter blob URL for Octory archive
 # Standard Variables
 targetdir="/Library/Application Support/Octory"                 # Installation directory
 appname="Octory"                                                # Name of application to display in the logs
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/Octory"    # Log file directory
+logandmetadir="/Library/Logs/Jamf/Scripts/Octory"    # Log file directory
 
 # Generated variables
 tempdir=$(mktemp -d)                                            # Temp directory

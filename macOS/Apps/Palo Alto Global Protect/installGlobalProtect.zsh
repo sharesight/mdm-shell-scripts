@@ -35,7 +35,7 @@
 weburl="https://catlab.blob.core.windows.net/apps/GlobalProtect.pkg?sp=r&st=2022-08-25T12:37:30Z&se=2099-08-25T20:37:30Z&spr=https&sv=2021-06-08&sr=b&sig=4HnMlm3dA9dJICxnpadFGNXZE8RuyRDCdXyMb1Xt9G0%3D"      # What is the Azure Blob Storage URL?
 appname="GlobalProtect"                                                                                 # The name of our App deployment script (also used for Octory monitor)
 app="GlobalProtect.app"                                                                                 # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"                                          # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"                                          # The location of our logs and last updated data
 processpath="/Applications/GlobalProtect.app/Contents/MacOS/GlobalProtect"                              # The process name of the App we are installing
 terminateprocess="true"                                                                                 # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                                                      # Application updates itself, if already installed we should exit

@@ -11,13 +11,13 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Wed  5 Jan 2022 17:26:50 GMT | Creating [/Library/Logs/Microsoft/IntuneScripts/Adobe Acrobat Reader DC] to store logs
+Wed  5 Jan 2022 17:26:50 GMT | Creating [/Library/Logs/Jamf/Scripts/Adobe Acrobat Reader DC] to store logs
 
 ##############################################################
-# Wed  5 Jan 2022 17:26:50 GMT | Logging install of [Adobe Acrobat Reader DC] to [/Library/Logs/Microsoft/IntuneScripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.log]
+# Wed  5 Jan 2022 17:26:50 GMT | Logging install of [Adobe Acrobat Reader DC] to [/Library/Logs/Jamf/Scripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.log]
 ############################################################
 
 Wed  5 Jan 2022 17:26:50 GMT | Checking if we need Rosetta 2 or not
@@ -51,5 +51,5 @@ Wed  5 Jan 2022 17:28:33 GMT | [Adobe Acrobat Reader DC] Installed
 Wed  5 Jan 2022 17:28:33 GMT | Cleaning Up
 Wed  5 Jan 2022 17:28:33 GMT | Fixing up permissions
 Wed  5 Jan 2022 17:28:34 GMT | Application [Adobe Acrobat Reader DC] succesfully installed
-Wed  5 Jan 2022 17:28:34 GMT | Writing last modifieddate [Mon, 10 May 2021 07:25:20 GMT] to [/Library/Logs/Microsoft/IntuneScripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.meta]
+Wed  5 Jan 2022 17:28:34 GMT | Writing last modifieddate [Mon, 10 May 2021 07:25:20 GMT] to [/Library/Logs/Jamf/Scripts/Adobe Acrobat Reader DC/Adobe Acrobat Reader DC.meta]
 ```

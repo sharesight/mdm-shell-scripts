@@ -16,11 +16,11 @@ This scripts intended usage scenario is to deploy the gitHub Desktop app to Mac 
 
 ## Log File
 
-The log file will output to **/Library/Logs/Microsoft/IntuneScripts/installGitHubDesktop/GitHub Desktop.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
+The log file will output to **/Library/Logs/Jamf/Scripts/installGitHubDesktop/GitHub Desktop.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
 
 ```
 ##############################################################
-# Mon 28 Feb 2022 15:10:34 GMT | Logging install of [Citrix Workspace] to [/Library/Logs/Microsoft/IntuneScripts/Citrix Workspace/Citrix Workspace.log]
+# Mon 28 Feb 2022 15:10:34 GMT | Logging install of [Citrix Workspace] to [/Library/Logs/Jamf/Scripts/Citrix Workspace/Citrix Workspace.log]
 ############################################################
 
 Mon 28 Feb 2022 15:10:34 GMT | Checking if we need Rosetta 2 or not

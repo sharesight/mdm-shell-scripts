@@ -22,7 +22,7 @@ When the script completes, in the output window it will print a semi-colon separ
 
 
 ```
-####################################### ## ## The following logs were created ## ####################### /Library/Logs/Microsoft/Intune/mdmDiagnose/mdmclientLogs.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/appInstallLogs.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledProfiles.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/enrollmentProfileInfo.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.3.gz;/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledApps.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.2.gz;/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.1.gz;/Library/Logs/Microsoft/Intune/mdmDiagnose/DeviceInformation.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.0.gz;/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log;/Library/Logs/Microsoft/Intune/mdmDiagnose/install.log;/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledCerts.txt;/Library/Logs/Microsoft/Intune/mdmDiagnose/SecurityInfo.txt;
+####################################### ## ## The following logs were created ## ####################### /Library/Logs/Jamf/Scripts/mdmDiagnose/mdmclientLogs.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/appInstallLogs.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledProfiles.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/enrollmentProfileInfo.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.3.gz;/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledApps.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.2.gz;/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.1.gz;/Library/Logs/Jamf/Scripts/mdmDiagnose/DeviceInformation.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.0.gz;/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log;/Library/Logs/Jamf/Scripts/mdmDiagnose/install.log;/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledCerts.txt;/Library/Logs/Jamf/Scripts/mdmDiagnose/SecurityInfo.txt;
 ```
 
 
@@ -30,18 +30,18 @@ When the script completes, in the output window it will print a semi-colon separ
 
 # Example set of output logs
 ```
-/Library/Logs/Microsoft/Intune/mdmDiagnose/mdmclientLogs.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/appInstallLogs.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledProfiles.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/enrollmentProfileInfo.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.3.gz
-/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledApps.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.2.gz
-/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.1.gz
-/Library/Logs/Microsoft/Intune/mdmDiagnose/DeviceInformation.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log.0.gz
-/Library/Logs/Microsoft/Intune/mdmDiagnose/system.log
-/Library/Logs/Microsoft/Intune/mdmDiagnose/install.log
-/Library/Logs/Microsoft/Intune/mdmDiagnose/InstalledCerts.txt
-/Library/Logs/Microsoft/Intune/mdmDiagnose/SecurityInfo.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/mdmclientLogs.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/appInstallLogs.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledProfiles.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/enrollmentProfileInfo.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.3.gz
+/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledApps.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.2.gz
+/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.1.gz
+/Library/Logs/Jamf/Scripts/mdmDiagnose/DeviceInformation.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log.0.gz
+/Library/Logs/Jamf/Scripts/mdmDiagnose/system.log
+/Library/Logs/Jamf/Scripts/mdmDiagnose/install.log
+/Library/Logs/Jamf/Scripts/mdmDiagnose/InstalledCerts.txt
+/Library/Logs/Jamf/Scripts/mdmDiagnose/SecurityInfo.txt
 ```

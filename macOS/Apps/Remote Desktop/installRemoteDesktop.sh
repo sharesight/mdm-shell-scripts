@@ -21,7 +21,7 @@
 weburl="https://go.microsoft.com/fwlink/?linkid=868963"                                             # What is the Azure Blob Storage URL?
 appname="Remote Desktop"                                                                            # The name of our App deployment script (also used for Octory monitor)
 app="Microsoft Remote Desktop.app"                                                                  # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installRemoteDesktop"                          # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installRemoteDesktop"                          # The location of our logs and last updated data
 processpath="/Applications/Microsoft Remote Desktop.app/Contents/MacOS/Microsoft Remote Desktop"    # The process name of the App we are installing
 terminateprocess="false"                                                                            # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                                                  # If true, application updates itself and we should not attempt to update

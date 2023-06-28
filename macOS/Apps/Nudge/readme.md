@@ -45,11 +45,11 @@ Once deployed and configured, the following dialog will be shown to users that d
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/Nudge/Nudge.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/Nudge/Nudge.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Fri 24 Jun 2022 15:37:05 BST | Logging install of [Nudge] to [/Library/Logs/Microsoft/IntuneScripts/Nudge/Nudge.log]
+# Fri 24 Jun 2022 15:37:05 BST | Logging install of [Nudge] to [/Library/Logs/Jamf/Scripts/Nudge/Nudge.log]
 ############################################################
 
 Fri 24 Jun 2022 15:37:05 BST | Checking if we need Rosetta 2 or not
@@ -75,5 +75,5 @@ installer: The upgrade was successful.
 Fri 24 Jun 2022 15:37:08 BST | Nudge Installed
 Fri 24 Jun 2022 15:37:08 BST | Cleaning Up
 Fri 24 Jun 2022 15:37:08 BST | Application [Nudge] succesfully installed
-Fri 24 Jun 2022 15:37:09 BST | Writing last modifieddate [Fri, 03 Jun 2022 13:16:02 GMT] to [/Library/Logs/Microsoft/IntuneScripts/Nudge/Nudge.meta]
+Fri 24 Jun 2022 15:37:09 BST | Writing last modifieddate [Fri, 03 Jun 2022 13:16:02 GMT] to [/Library/Logs/Jamf/Scripts/Nudge/Nudge.meta]
 ```

@@ -21,7 +21,7 @@
 weburl="https://download.gimp.org/mirror/pub/gimp/v2.10/osx/gimp-2.10.22-x86_64-3.dmg"      # What is the Azure Blob Storage URL?
 appname="Gimp"                                                                              # The name of our App deployment script (also used for Octory monitor)
 app="Gimp.app"                                                                              # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installGimp"                           # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installGimp"                           # The location of our logs and last updated data
 processpath="/Applications/Gimp.app/Contents/MacOS/gimp"                                    # The process name of the App we are installing
 terminateprocess="false"                                                                    # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                                          # Application updates itself, if already installed we should exit

@@ -35,7 +35,7 @@
 weburl="Enter Your Azure Blob Storage URL Here"                                 # What is the Azure Blob Storage URL?
 appname="Cisco AMP"                                                             # The name of our App deployment script (also used for Octory monitor)
 app="Cisco AMP for Endpoints.app"                                               # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/CiscoAMP"                  # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/CiscoAMP"                  # The location of our logs and last updated data
 processpath="/Applications/Cisco AMP for Endpoints/AMP for Endpoints Connector.app/Contents/MacOS/AMP for Endpoints Connector"    # The process name of the App we are installing
 terminateprocess="true"                                                         # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                               # Application updates itself, if already installed we should exit

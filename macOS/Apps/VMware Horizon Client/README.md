@@ -24,10 +24,10 @@ sudo /bin/bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/microsoft/she
 The log file will output to ***/var/log/installHorizonClient.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Fri Feb 11 13:33:37 CET 2022 | Creating [/Library/Logs/Microsoft/IntuneScripts/installHorizonClient] to store logs
+Fri Feb 11 13:33:37 CET 2022 | Creating [/Library/Logs/Jamf/Scripts/installHorizonClient] to store logs
 
 ##############################################################
-# Fri Feb 11 13:33:37 CET 2022 | Logging install of [VMware Horizon Client] to [/Library/Logs/Microsoft/IntuneScripts/installHorizonClient/VMware Horizon Client.log]
+# Fri Feb 11 13:33:37 CET 2022 | Logging install of [VMware Horizon Client] to [/Library/Logs/Jamf/Scripts/installHorizonClient/VMware Horizon Client.log]
 ############################################################
 
 Fri Feb 11 13:33:37 CET 2022 | Checking if we need Rosetta 2 or not
@@ -53,5 +53,5 @@ Fri Feb 11 13:33:58 CET 2022 | [VMware Horizon Client] Installed
 Fri Feb 11 13:33:58 CET 2022 | Cleaning Up
 Fri Feb 11 13:33:58 CET 2022 | Fixing up permissions
 Fri Feb 11 13:33:58 CET 2022 | Application [VMware Horizon Client] succesfully installed
-Fri Feb 11 13:33:58 CET 2022 | Writing last modifieddate [Thu, 25 Nov 2021 09:07:06 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installHorizonClient/VMware Horizon Client.meta]
+Fri Feb 11 13:33:58 CET 2022 | Writing last modifieddate [Thu, 25 Nov 2021 09:07:06 GMT] to [/Library/Logs/Jamf/Scripts/installHorizonClient/VMware Horizon Client.meta]
 ```

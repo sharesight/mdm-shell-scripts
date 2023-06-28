@@ -11,11 +11,11 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/FileZilla/FileZilla.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/FileZilla/FileZilla.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Mon 28 Feb 2022 12:09:26 GMT | Logging install of [FileZilla] to [/Library/Logs/Microsoft/IntuneScripts/FileZilla/FileZilla.log]
+# Mon 28 Feb 2022 12:09:26 GMT | Logging install of [FileZilla] to [/Library/Logs/Jamf/Scripts/FileZilla/FileZilla.log]
 ############################################################
 
 Mon 28 Feb 2022 12:09:26 GMT | Checking if we need Rosetta 2 or not
@@ -42,7 +42,7 @@ Mon 28 Feb 2022 12:09:30 GMT | Fix up permissions
 Mon 28 Feb 2022 12:09:30 GMT | correctly applied permissions to FileZilla
 Mon 28 Feb 2022 12:09:30 GMT | FileZilla Installed
 Mon 28 Feb 2022 12:09:30 GMT | Cleaning Up
-Mon 28 Feb 2022 12:09:30 GMT | Writing last modifieddate [Fri, 11 Feb 2022 16:58:01 GMT] to [/Library/Logs/Microsoft/IntuneScripts/FileZilla/FileZilla.meta]
+Mon 28 Feb 2022 12:09:30 GMT | Writing last modifieddate [Fri, 11 Feb 2022 16:58:01 GMT] to [/Library/Logs/Jamf/Scripts/FileZilla/FileZilla.meta]
 Mon 28 Feb 2022 12:09:30 GMT | Fixing up permissions
 Mon 28 Feb 2022 12:09:30 GMT | Application [FileZilla] succesfully installed
 ```

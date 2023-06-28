@@ -11,11 +11,11 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/ImageOptim/ImageOptim.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/ImageOptim/ImageOptim.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Wed 23 Feb 2022 17:20:52 GMT | Logging install of [ImageOptim] to [/Library/Logs/Microsoft/IntuneScripts/ImageOptim/ImageOptim.log]
+# Wed 23 Feb 2022 17:20:52 GMT | Logging install of [ImageOptim] to [/Library/Logs/Jamf/Scripts/ImageOptim/ImageOptim.log]
 ############################################################
 
 Wed 23 Feb 2022 17:20:52 GMT | Checking if we need Rosetta 2 or not
@@ -41,7 +41,7 @@ Wed 23 Feb 2022 17:20:55 GMT | Fix up permissions
 Wed 23 Feb 2022 17:20:55 GMT | correctly applied permissions to ImageOptim
 Wed 23 Feb 2022 17:20:55 GMT | ImageOptim Installed
 Wed 23 Feb 2022 17:20:56 GMT | Cleaning Up
-Wed 23 Feb 2022 17:20:56 GMT | Writing last modifieddate [Sun, 16 Dec 2018 02:38:42 GMT] to [/Library/Logs/Microsoft/IntuneScripts/ImageOptim/ImageOptim.meta]
+Wed 23 Feb 2022 17:20:56 GMT | Writing last modifieddate [Sun, 16 Dec 2018 02:38:42 GMT] to [/Library/Logs/Jamf/Scripts/ImageOptim/ImageOptim.meta]
 Wed 23 Feb 2022 17:20:56 GMT | Fixing up permissions
 Wed 23 Feb 2022 17:20:56 GMT | Application [ImageOptim] succesfully installed
 ```

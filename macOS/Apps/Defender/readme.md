@@ -32,11 +32,11 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installDefender*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installDefender*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:31:24 BST | Logging install of [Microsoft Defender ATP] to [/Library/Logs/Microsoft/IntuneScripts/installDefender/Microsoft Defender ATP.log]
+# Fri  9 Apr 2021 13:31:24 BST | Logging install of [Microsoft Defender ATP] to [/Library/Logs/Jamf/Scripts/installDefender/Microsoft Defender ATP.log]
 ############################################################
 
 Fri  9 Apr 2021 13:31:24 BST | Checking if we need Rosetta 2 or not
@@ -67,5 +67,5 @@ installer: The upgrade was successful.
 Fri  9 Apr 2021 13:33:04 BST | Microsoft Defender ATP Installed
 Fri  9 Apr 2021 13:33:04 BST | Cleaning Up
 Fri  9 Apr 2021 13:33:04 BST | Application [Microsoft Defender ATP] succesfully installed
-Fri  9 Apr 2021 13:33:05 BST | Writing last modifieddate [Tue, 02 Mar 2021 10:22:11 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installDefender/Microsoft Defender ATP.meta]
+Fri  9 Apr 2021 13:33:05 BST | Writing last modifieddate [Tue, 02 Mar 2021 10:22:11 GMT] to [/Library/Logs/Jamf/Scripts/installDefender/Microsoft Defender ATP.meta]
 ```

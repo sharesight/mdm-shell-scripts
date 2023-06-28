@@ -31,7 +31,7 @@
 weburl="https://www.python.org/ftp/python/3.9.10/python-3.9.10-macos11.pkg"     # What is the download URL?
 appname="Python3.9"                                                             # The name of our App deployment script (also used for Octory monitor)
 app="/Python 3.9/IDLE.app "                                                     # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"                  # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"                  # The location of our logs and last updated data
 processpath="/Applications/Python 3.9/IDLE.app/Contents/MacOS/IDLE "            # The process name of the App we are installing
 terminateprocess="false"                                                        # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                              # Application updates itself, if already installed we should exit

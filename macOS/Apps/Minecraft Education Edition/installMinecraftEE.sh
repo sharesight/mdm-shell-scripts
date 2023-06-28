@@ -21,7 +21,7 @@
 weburl="https://aka.ms/meeclientmacos"
 appname="Minecraft EE"
 app="Minecraft EE.app"
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installMinecraftEE"
+logandmetadir="/Library/Logs/Jamf/Scripts/installMinecraftEE"
 processpath="minecraftpe"
 terminateprocess="false"                                                         # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"   

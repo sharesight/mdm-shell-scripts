@@ -11,13 +11,13 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/WhatsApp/WhatsApp.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/WhatsApp/WhatsApp.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Sat  4 Jun 2022 20:46:26 BST | Creating [/Library/Logs/Microsoft/IntuneScripts/WhatsApp] to store logs
+Sat  4 Jun 2022 20:46:26 BST | Creating [/Library/Logs/Jamf/Scripts/WhatsApp] to store logs
 
 ##############################################################
-# Sat  4 Jun 2022 20:46:26 BST | Logging install of [WhatsApp] to [/Library/Logs/Microsoft/IntuneScripts/WhatsApp/WhatsApp.log]
+# Sat  4 Jun 2022 20:46:26 BST | Logging install of [WhatsApp] to [/Library/Logs/Jamf/Scripts/WhatsApp/WhatsApp.log]
 ############################################################
 
 Sat  4 Jun 2022 20:46:26 BST | Checking if we need Rosetta 2 or not
@@ -48,5 +48,5 @@ Sat  4 Jun 2022 20:47:01 BST | [WhatsApp] Installed
 Sat  4 Jun 2022 20:47:01 BST | Cleaning Up
 Sat  4 Jun 2022 20:47:01 BST | Fixing up permissions
 Sat  4 Jun 2022 20:47:02 BST | Application [WhatsApp] succesfully installed
-Sat  4 Jun 2022 20:47:02 BST | Writing last modifieddate [Wed, 11 May 2022 22:50:34 GMT] to [/Library/Logs/Microsoft/IntuneScripts/WhatsApp/WhatsApp.meta]
+Sat  4 Jun 2022 20:47:02 BST | Writing last modifieddate [Wed, 11 May 2022 22:50:34 GMT] to [/Library/Logs/Jamf/Scripts/WhatsApp/WhatsApp.meta]
 ```

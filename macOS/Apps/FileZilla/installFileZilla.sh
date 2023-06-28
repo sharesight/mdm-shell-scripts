@@ -32,7 +32,7 @@
 weburl="https://dl3.cdn.filezilla-project.org/client/FileZilla_3.58.0_macosx-x86.tar.bz2?h=SZgBP-QNYQxJtPn8uo_kBw&x=1646051403"                                    # What is the Azure Blob Storage URL?
 appname="FileZilla"                                                         # The name of our App deployment script (also used for Octory monitor)
 app="FileZilla.app"                                                         # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"              # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"              # The location of our logs and last updated data
 processpath="/Applications/FileZilla.app/Contents/MacOS/filezilla"          # The process name of the App we are installing
 terminateprocess="false"                                                    # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                           # Application updates itself, if already installed we should exit

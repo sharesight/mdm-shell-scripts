@@ -32,7 +32,7 @@
 weburl="https://imageoptim.com/ImageOptim.tbz2"                         # What is the Azure Blob Storage URL?
 appname="ImageOptim"                                                    # The name of our App deployment script (also used for Octory monitor)
 app="ImageOptim.app"                                                    # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"          # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"          # The location of our logs and last updated data
 processpath="/Applications/ImageOptim.app/Contents/MacOS/ImageOptim"    # The process name of the App we are installing
 terminateprocess="true"                                                 # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                      # Application updates itself, if already installed we should exit

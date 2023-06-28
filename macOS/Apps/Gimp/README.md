@@ -55,7 +55,7 @@ app="Gimp.app"
 
 **logandmetadir** this is the directory that the script will use to generate the installation log and also to store the metadata for the last version update. This should be unique for each application that you deploy.
 ```
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installGimp"
+logandmetadir="/Library/Logs/Jamf/Scripts/installGimp"
 ```
 
 **processpath** this is used to check if the application is running or not. Mac applications have a fairly strict directory format, so one of the quickest methods is to run `ls -Fl /Applications/Gimp.app/Contents/MacOS/*`. This will return a list of files, it's usually pretty easy to guess which one is the main application by the name, in our case **/Applications/Gimp.app/Contents/MacOS/gimp**.
@@ -97,12 +97,12 @@ terminateprocess="false"
 
 ## Log File
 
-The log file will output to **//Library/Logs/Microsoft/IntuneScripts/installGimp/Gimp.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
+The log file will output to **//Library/Logs/Jamf/Scripts/installGimp/Gimp.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
 ```
-Fri  9 Apr 2021 15:12:42 BST | Creating [/Library/Logs/Microsoft/IntuneScripts/installGimp] to store logs
+Fri  9 Apr 2021 15:12:42 BST | Creating [/Library/Logs/Jamf/Scripts/installGimp] to store logs
 
 ##############################################################
-# Fri  9 Apr 2021 15:12:42 BST | Logging install of [Gimp] to [/Library/Logs/Microsoft/IntuneScripts/installGimp/Gimp.log]
+# Fri  9 Apr 2021 15:12:42 BST | Logging install of [Gimp] to [/Library/Logs/Jamf/Scripts/installGimp/Gimp.log]
 ############################################################
 
 Fri  9 Apr 2021 15:12:42 BST | Checking if we need Rosetta 2 or not
@@ -134,5 +134,5 @@ Fri  9 Apr 2021 15:22:28 BST | [Gimp] Installed
 Fri  9 Apr 2021 15:22:28 BST | Cleaning Up
 Fri  9 Apr 2021 15:22:28 BST | Fixing up permissions
 Fri  9 Apr 2021 15:22:30 BST | Application [Gimp] succesfully installed
-Fri  9 Apr 2021 15:22:31 BST | Writing last modifieddate [Tue, 06 Apr 2021 14:04:10 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installGimp/Gimp.meta]
+Fri  9 Apr 2021 15:22:31 BST | Writing last modifieddate [Tue, 06 Apr 2021 14:04:10 GMT] to [/Library/Logs/Jamf/Scripts/installGimp/Gimp.meta]
 ```

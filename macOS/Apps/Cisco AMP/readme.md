@@ -21,13 +21,13 @@ Note: If you assign the script and custom profile to the same group of users, th
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/CiscoAMP/Cisco AMP.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/CiscoAMP/Cisco AMP.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Fri 30 Jul 2021 13:37:33 BST | Creating [/Library/Logs/Microsoft/IntuneScripts/CiscoAMP] to store logs
+Fri 30 Jul 2021 13:37:33 BST | Creating [/Library/Logs/Jamf/Scripts/CiscoAMP] to store logs
 
 ##############################################################
-# Fri 30 Jul 2021 13:37:33 BST | Logging install of [Cisco AMP] to [/Library/Logs/Microsoft/IntuneScripts/CiscoAMP/Cisco AMP.log]
+# Fri 30 Jul 2021 13:37:33 BST | Logging install of [Cisco AMP] to [/Library/Logs/Jamf/Scripts/CiscoAMP/Cisco AMP.log]
 ############################################################
 
 Fri 30 Jul 2021 13:37:33 BST | Checking if we need Rosetta 2 or not

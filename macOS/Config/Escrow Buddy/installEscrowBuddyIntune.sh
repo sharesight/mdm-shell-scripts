@@ -16,7 +16,7 @@ version="" # Only configure this if you want to control the version of Escrow Bu
 # Set the path to the installed Escrow Buddy bundle
 install_path="/Library/Security/SecurityAgentPlugins/Escrow Buddy.bundle"
 # Set the path to the log directory
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/EscrowBuddy"
+logandmetadir="/Library/Logs/Jamf/Scripts/EscrowBuddy"
 # File to store last updatedtime
 lastupdated="$logandmetadir/lastupdated"
 # Get the current date and time

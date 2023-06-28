@@ -22,7 +22,7 @@ mauurl="https://go.microsoft.com/fwlink/?linkid=830196"                         
 weburl="https://go.microsoft.com/fwlink/?linkid=853070"                         # What is the Azure Blob Storage URL?
 appname="Company Portal"                                                        # The name of our App deployment script (also used for Octory monitor)
 app="Company Portal.app"                                                        # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installCompanyPortal"      # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installCompanyPortal"      # The location of our logs and last updated data
 processpath="/Applications/Company Portal.app/Contents/MacOS/Company Portal"    # The process name of the App we are installing
 terminateprocess="true"                                                         # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                               # Application updates itself, if already installed we should exit

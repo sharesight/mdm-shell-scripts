@@ -24,7 +24,7 @@
 # Define variables
 
 appname="Rosetta2"
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"
+logandmetadir="/Library/Logs/Jamf/Scripts/$appname"
 log="$logandmetadir/$appname.log"
 
 ## Check if the log directory has been created

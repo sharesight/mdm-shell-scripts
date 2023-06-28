@@ -26,13 +26,13 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installCompanyPortal/Company Portal.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installCompanyPortal/Company Portal.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Tue  6 Apr 2021 16:58:54 BST | Creating [/Library/Logs/Microsoft/IntuneScripts/installCompanyPortal] to store logs
+Tue  6 Apr 2021 16:58:54 BST | Creating [/Library/Logs/Jamf/Scripts/installCompanyPortal] to store logs
 
 ##############################################################
-# Tue  6 Apr 2021 16:58:54 BST | Logging install of [Company Portal] to [/Library/Logs/Microsoft/IntuneScripts/installCompanyPortal/Company Portal.log]
+# Tue  6 Apr 2021 16:58:54 BST | Logging install of [Company Portal] to [/Library/Logs/Jamf/Scripts/installCompanyPortal/Company Portal.log]
 ############################################################
 
 Tue  6 Apr 2021 16:58:54 BST | Checking if we need Rosetta 2 or not
@@ -57,9 +57,9 @@ installer: Upgrading at base path /
 installer: The upgrade was successful.
 Tue  6 Apr 2021 16:59:08 BST | Company Portal Installed
 Tue  6 Apr 2021 16:59:08 BST | Cleaning Up
-Tue  6 Apr 2021 16:59:08 BST | Writing last modifieddate  to /Library/Logs/Microsoft/IntuneScripts/installCompanyPortal/Company Portal.meta
+Tue  6 Apr 2021 16:59:08 BST | Writing last modifieddate  to /Library/Logs/Jamf/Scripts/installCompanyPortal/Company Portal.meta
 Tue  6 Apr 2021 16:59:08 BST | Application [Company Portal] succesfully installed
-Tue  6 Apr 2021 16:59:08 BST | Writing last modifieddate [Thu, 25 Mar 2021 16:38:38 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installCompanyPortal/Company Portal.meta]
+Tue  6 Apr 2021 16:59:08 BST | Writing last modifieddate [Thu, 25 Mar 2021 16:38:38 GMT] to [/Library/Logs/Jamf/Scripts/installCompanyPortal/Company Portal.meta]
 Tue  6 Apr 2021 16:59:08 BST | Octory found, attempting to send status updates
 Tue  6 Apr 2021 16:59:08 BST | Updating Octory monitor for [Company Portal] to [installed]
 ```

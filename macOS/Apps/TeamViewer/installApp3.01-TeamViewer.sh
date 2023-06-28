@@ -27,7 +27,7 @@
 weburl="https://download.teamviewer.com/download/TeamViewer.dmg?utm_source=google&utm_medium=cpc&utm_campaign=restofeurope%7Cb%7Cpr%7C22%7Caug%7Ctv-core-download-sn%7Cnew%7Ct0%7C0&utm_content=Download&utm_term=teamviewer%20download%20for%20pc&gclid=CjwKCAjw3POhBhBQEiwAqTCuBoH6vpRkT_XoZfZBmZnCDObFZCUUWOdwk2K4AtCeNaRtZ4ygRPLV9RoCTioQAvD_BwE"              # What is the Azure Blob Storage URL?
 appname="TeamViewer"                                                        # The name of our App deployment script (also used for Octory monitor)
 app="TeamViewer.app"                                                        # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/TeamViewer"             # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/TeamViewer"             # The location of our logs and last updated data
 processpath="/Applications/TeamViewer.app/Contents/MacOS/TeamViewer"      # The process name of the App we are installing
 terminateprocess="true"                                                       # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                             # Application updates itself, if already installed we should exit

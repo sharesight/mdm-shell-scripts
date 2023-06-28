@@ -27,7 +27,7 @@
 weburl="https://dl.google.com/drive-file-stream/GoogleDrive.dmg"              # What is the Azure Blob Storage URL?
 appname="Google Drive"                                                        # The name of our App deployment script (also used for Octory monitor)
 app="Google Drive.app"                                                        # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/GoogleDrive"             # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/GoogleDrive"             # The location of our logs and last updated data
 processpath="/Applications/Google Drive.app/Contents/MacOS/Google Drive"      # The process name of the App we are installing
 terminateprocess="true"                                                       # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="true"                                                             # Application updates itself, if already installed we should exit

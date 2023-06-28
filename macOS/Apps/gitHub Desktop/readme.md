@@ -16,11 +16,11 @@ This scripts intended usage scenario is to deploy the gitHub Desktop app to Mac 
 
 ## Log File
 
-The log file will output to **/Library/Logs/Microsoft/IntuneScripts/installGitHubDesktop/GitHub Desktop.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
+The log file will output to **/Library/Logs/Jamf/Scripts/installGitHubDesktop/GitHub Desktop.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
 
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:00:15 BST | Logging install of [GitHub Desktop] to [/Library/Logs/Microsoft/IntuneScripts/installGitHubDesktop/GitHub Desktop.log]
+# Fri  9 Apr 2021 13:00:15 BST | Logging install of [GitHub Desktop] to [/Library/Logs/Jamf/Scripts/installGitHubDesktop/GitHub Desktop.log]
 ############################################################
 
 Fri  9 Apr 2021 13:00:15 BST | Checking if we need Rosetta 2 or not
@@ -51,7 +51,7 @@ Fri  9 Apr 2021 13:00:45 BST | Fix up permissions
 Fri  9 Apr 2021 13:00:46 BST | correctly applied permissions to GitHub Desktop
 Fri  9 Apr 2021 13:00:46 BST | GitHub Desktop Installed
 Fri  9 Apr 2021 13:00:46 BST | Cleaning Up
-Fri  9 Apr 2021 13:00:46 BST | Writing last modifieddate  to /Library/Logs/Microsoft/IntuneScripts/installGitHubDesktop/GitHub Desktop.meta
+Fri  9 Apr 2021 13:00:46 BST | Writing last modifieddate  to /Library/Logs/Jamf/Scripts/installGitHubDesktop/GitHub Desktop.meta
 Fri  9 Apr 2021 13:00:46 BST | Fixing up permissions
 Fri  9 Apr 2021 13:00:46 BST | Application [GitHub Desktop] succesfully installed
 ```

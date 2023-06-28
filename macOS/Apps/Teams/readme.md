@@ -25,7 +25,7 @@ The log file will output to ***/var/log/installteams.log*** by default. Exit sta
 
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:18:12 BST | Logging install of [Microsoft Teams] to [/Library/Logs/Microsoft/IntuneScripts/installTeams/Microsoft Teams.log]
+# Fri  9 Apr 2021 13:18:12 BST | Logging install of [Microsoft Teams] to [/Library/Logs/Jamf/Scripts/installTeams/Microsoft Teams.log]
 ############################################################
 
 Fri  9 Apr 2021 13:18:12 BST | Checking if we need Rosetta 2 or not
@@ -56,5 +56,5 @@ installer: The upgrade was successful.
 Fri  9 Apr 2021 13:18:38 BST | Microsoft Teams Installed
 Fri  9 Apr 2021 13:18:38 BST | Cleaning Up
 Fri  9 Apr 2021 13:18:38 BST | Application [Microsoft Teams] succesfully installed
-Fri  9 Apr 2021 13:18:38 BST | Writing last modifieddate [Fri, 09 Apr 2021 12:17:06 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installTeams/Microsoft Teams.meta]
+Fri  9 Apr 2021 13:18:38 BST | Writing last modifieddate [Fri, 09 Apr 2021 12:17:06 GMT] to [/Library/Logs/Jamf/Scripts/installTeams/Microsoft Teams.meta]
 ```

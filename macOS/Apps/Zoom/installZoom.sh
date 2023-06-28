@@ -21,7 +21,7 @@
 weburl="https://zoom.us/client/latest/ZoomInstallerIT.pkg"                  # What is the Azure Blob Storage URL?
 appname="Zoom"                                                              # The name of our App deployment script (also used for Octory monitor)
 app="zoom.us.app"                                                           # The actual name of our App once installed
-logandmetadir="/Library/Logs/Microsoft/IntuneScripts/installZoom"           # The location of our logs and last updated data
+logandmetadir="/Library/Logs/Jamf/Scripts/installZoom"           # The location of our logs and last updated data
 processpath="/Applications/zoom.us.app/Contents/MacOS/zoom.us"              # The process name of the App we are installing
 terminateprocess="false"                                                    # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                          # Application updates itself, if already installed we should exit

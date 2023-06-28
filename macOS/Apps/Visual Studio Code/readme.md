@@ -21,11 +21,11 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installVSCode/Visual Studio Code.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installVSCode/Visual Studio Code.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Thu 15 Dec 2022 12:42:24 GMT | Logging install of [Visual Studio Code] to [/Library/Logs/Microsoft/IntuneScripts/installVSCode/Visual Studio Code.log]
+# Thu 15 Dec 2022 12:42:24 GMT | Logging install of [Visual Studio Code] to [/Library/Logs/Jamf/Scripts/installVSCode/Visual Studio Code.log]
 ############################################################
 
 Thu 15 Dec 2022 12:42:24 GMT | Checking if we need Rosetta 2 or not
@@ -51,7 +51,7 @@ Thu 15 Dec 2022 12:42:37 GMT | Fix up permissions
 Thu 15 Dec 2022 12:42:38 GMT | correctly applied permissions to Visual Studio Code
 Thu 15 Dec 2022 12:42:38 GMT | Visual Studio Code Installed
 Thu 15 Dec 2022 12:42:38 GMT | Cleaning Up
-Thu 15 Dec 2022 12:42:38 GMT | Writing last modifieddate [Wed, 14 Dec 2022 11:35:16 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installVSCode/Visual Studio Code.meta]
+Thu 15 Dec 2022 12:42:38 GMT | Writing last modifieddate [Wed, 14 Dec 2022 11:35:16 GMT] to [/Library/Logs/Jamf/Scripts/installVSCode/Visual Studio Code.meta]
 Thu 15 Dec 2022 12:42:38 GMT | Fixing up permissions
 Thu 15 Dec 2022 12:42:38 GMT | Application [Visual Studio Code] succesfully installed
 ```

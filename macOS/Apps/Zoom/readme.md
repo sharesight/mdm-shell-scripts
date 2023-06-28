@@ -12,13 +12,13 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installZoom/Zoom.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installZoom/Zoom.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
-Fri  9 Apr 2021 12:44:27 BST | Creating [/Library/Logs/Microsoft/IntuneScripts/installZoom] to store logs
+Fri  9 Apr 2021 12:44:27 BST | Creating [/Library/Logs/Jamf/Scripts/installZoom] to store logs
 
 ##############################################################
-# Fri  9 Apr 2021 12:44:27 BST | Logging install of [Zoom] to [/Library/Logs/Microsoft/IntuneScripts/installZoom/Zoom.log]
+# Fri  9 Apr 2021 12:44:27 BST | Logging install of [Zoom] to [/Library/Logs/Jamf/Scripts/installZoom/Zoom.log]
 ############################################################
 
 Fri  9 Apr 2021 12:44:27 BST | Checking if we need Rosetta 2 or not
@@ -49,5 +49,5 @@ installer: The install was successful.
 Fri  9 Apr 2021 12:44:40 BST | Zoom Installed
 Fri  9 Apr 2021 12:44:40 BST | Cleaning Up
 Fri  9 Apr 2021 12:44:40 BST | Application [Zoom] succesfully installed
-Fri  9 Apr 2021 12:44:41 BST | Writing last modifieddate [Mon, 29 Mar 2021 09:52:33 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installZoom/Zoom.meta]
+Fri  9 Apr 2021 12:44:41 BST | Writing last modifieddate [Mon, 29 Mar 2021 09:52:33 GMT] to [/Library/Logs/Jamf/Scripts/installZoom/Zoom.meta]
 ```

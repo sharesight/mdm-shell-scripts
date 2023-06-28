@@ -21,11 +21,11 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/microsoft/shel
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/installSkypeForBusiness/Skype for Business.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/installSkypeForBusiness/Skype for Business.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:11:01 BST | Logging install of [Skype for Business] to [/Library/Logs/Microsoft/IntuneScripts/installSkypeForBusiness/Skype for Business.log]
+# Fri  9 Apr 2021 13:11:01 BST | Logging install of [Skype for Business] to [/Library/Logs/Jamf/Scripts/installSkypeForBusiness/Skype for Business.log]
 ############################################################
 
 Fri  9 Apr 2021 13:11:01 BST | Checking if we need Rosetta 2 or not
@@ -56,5 +56,5 @@ installer: The upgrade was successful.
 Fri  9 Apr 2021 13:11:25 BST | Skype for Business Installed
 Fri  9 Apr 2021 13:11:25 BST | Cleaning Up
 Fri  9 Apr 2021 13:11:25 BST | Application [Skype for Business] succesfully installed
-Fri  9 Apr 2021 13:11:26 BST | Writing last modifieddate [Sat, 23 Jan 2021 00:15:16 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installSkypeForBusiness/Skype for Business.meta]
+Fri  9 Apr 2021 13:11:26 BST | Writing last modifieddate [Sat, 23 Jan 2021 00:15:16 GMT] to [/Library/Logs/Jamf/Scripts/installSkypeForBusiness/Skype for Business.meta]
 ```

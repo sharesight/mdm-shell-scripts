@@ -36,10 +36,10 @@ If **Minecraft Education Edition** is already installed, it will compare the dat
 
 ## Log File
 
-The log file will output to **/Library/Logs/Microsoft/IntuneScripts/installMinecraftEE/Minecraft EE.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
+The log file will output to **/Library/Logs/Jamf/Scripts/installMinecraftEE/Minecraft EE.log** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection).
 ```
 ##############################################################
-# Fri  9 Apr 2021 13:45:28 BST | Logging install of [Minecraft EE] to [/Library/Logs/Microsoft/IntuneScripts/installMinecraftEE/Minecraft EE.log]
+# Fri  9 Apr 2021 13:45:28 BST | Logging install of [Minecraft EE] to [/Library/Logs/Jamf/Scripts/installMinecraftEE/Minecraft EE.log]
 ############################################################
 
 Fri  9 Apr 2021 13:45:28 BST | Checking if we need Rosetta 2 or not
@@ -71,5 +71,5 @@ Fri  9 Apr 2021 13:52:01 BST | [Minecraft EE] Installed
 Fri  9 Apr 2021 13:52:01 BST | Cleaning Up
 Fri  9 Apr 2021 13:52:01 BST | Fixing up permissions
 Fri  9 Apr 2021 13:52:02 BST | Application [Minecraft EE] succesfully installed
-Fri  9 Apr 2021 13:52:02 BST | Writing last modifieddate [Fri, 09 Apr 2021 12:40:22 GMT] to [/Library/Logs/Microsoft/IntuneScripts/installMinecraftEE/Minecraft EE.meta]
+Fri  9 Apr 2021 13:52:02 BST | Writing last modifieddate [Fri, 09 Apr 2021 12:40:22 GMT] to [/Library/Logs/Jamf/Scripts/installMinecraftEE/Minecraft EE.meta]
 ```

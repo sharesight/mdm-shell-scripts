@@ -11,11 +11,11 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ## Log File
 
-The log file will output to ***/Library/Logs/Microsoft/IntuneScripts/Python3.9/Python3.9.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
+The log file will output to ***/Library/Logs/Jamf/Scripts/Python3.9/Python3.9.log*** by default. Exit status is either 0 or 1. To gather this log with Intune remotely take a look at  [Troubleshoot macOS shell script policies using log collection](https://docs.microsoft.com/en-us/mem/intune/apps/macos-shell-scripts#troubleshoot-macos-shell-script-policies-using-log-collection)
 
 ```
 ##############################################################
-# Wed 23 Feb 2022 15:07:35 GMT | Logging install of [Python3.9] to [/Library/Logs/Microsoft/IntuneScripts/Python3.9/Python3.9.log]
+# Wed 23 Feb 2022 15:07:35 GMT | Logging install of [Python3.9] to [/Library/Logs/Jamf/Scripts/Python3.9/Python3.9.log]
 ############################################################
 
 Wed 23 Feb 2022 15:07:35 GMT | Checking if we need Rosetta 2 or not
@@ -40,6 +40,6 @@ installer: The upgrade was successful.
 Wed 23 Feb 2022 15:08:07 GMT | Python3.9 Installed
 Wed 23 Feb 2022 15:08:07 GMT | Cleaning Up
 Wed 23 Feb 2022 15:08:07 GMT | Application [Python3.9] succesfully installed
-Wed 23 Feb 2022 15:08:07 GMT | Writing last modifieddate [Thu, 13 Jan 2022 22:13:41 GMT] to [/Library/Logs/Microsoft/IntuneScripts/Python3.9/Python3.9.meta]
+Wed 23 Feb 2022 15:08:07 GMT | Writing last modifieddate [Thu, 13 Jan 2022 22:13:41 GMT] to [/Library/Logs/Jamf/Scripts/Python3.9/Python3.9.meta]
 Wed 23 Feb 2022 15:08:07 GMT | Setting default python version
 ```

@@ -11,7 +11,7 @@ This script is an example to show how to use [Intune Shell Scripting](https://do
 
 ```
 #############################################################
-# Thu 25 Aug 2022 06:17:23 PDT | Logging install of [GlobalProtect] to [/Library/Logs/Microsoft/IntuneScripts/GlobalProtect/GlobalProtect.log]
+# Thu 25 Aug 2022 06:17:23 PDT | Logging install of [GlobalProtect] to [/Library/Logs/Jamf/Scripts/GlobalProtect/GlobalProtect.log]
 ############################################################
 
 Thu 25 Aug 2022 06:17:23 PDT | Checking if we need Rosetta 2 or not
@@ -39,7 +39,7 @@ installer: The install was successful.
 Thu 25 Aug 2022 06:17:30 PDT | GlobalProtect Installed
 Thu 25 Aug 2022 06:17:30 PDT | Cleaning Up
 Thu 25 Aug 2022 06:17:30 PDT | Application [GlobalProtect] succesfully installed
-Thu 25 Aug 2022 06:17:30 PDT | Writing last modifieddate [Thu, 25 Aug 2022 12:37:20 GMT] to [/Library/Logs/Microsoft/IntuneScripts/GlobalProtect/GlobalProtect.meta]
+Thu 25 Aug 2022 06:17:30 PDT | Writing last modifieddate [Thu, 25 Aug 2022 12:37:20 GMT] to [/Library/Logs/Jamf/Scripts/GlobalProtect/GlobalProtect.meta]
 ```
 
 
